@@ -40,11 +40,27 @@ var quotes=[
         
     },
     {
-        quote:"God has no religion.",
-        source:" Mahatma Gandhi",
+        quote:"Marriage can wait, education cannot.",
+        source:"Khaled Hosseini",
+        citation:" A Thousand Splendid Suns",
+        year:"2007",
+        tags:"education"
+        
+    },
+    {
+        quote:"Let the beauty of what you love be what you do.",
+        source:"Rumi",
         citation:"",
         year:"",
-        tags:"religion"
+        tags:"beauty"
+        
+    },
+    {
+        quote:"You can never be overdressed or overeducated.",
+        source:"Oscar Wilde",
+        citation:"",
+        year:"",
+        tags:"eudcation"
         
     }
 ];

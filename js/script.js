@@ -5,6 +5,7 @@ var currentQuote;
 var currentColor;
 var colorArray=[];
 var colorArrayRef=['#b00b00','#8B8989','#DC8787','#6B4226','#FCE6C9','#36b55c']; //reference Array WHICH DOES NOT CHANGE
+var myTimer;
 
 //PRINT FUNCTION TO PRINT TO THE DIV WITH ID quote-box
 function print(message)
@@ -112,13 +113,17 @@ function printQuote()
     
     //CHANGE THE COLOR OF THE BACKGROUND
     document.body.style.background = getRandomColor();
+    //STOP THE setInterVAL FUNCTION AND RESET IT AGAIN
+    clearInterval(myTimer);
+    myTimer = setInterval(printQuote, 5000);
+    
 }
 
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-
-
+//EXECUTE THE printQuote() FUNCTION EVERY 5 SECONDS
+myTimer = setInterval(printQuote, 5000);
 
 
 
