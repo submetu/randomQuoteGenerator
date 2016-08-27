@@ -5,7 +5,7 @@ var quotes=[
         source:"Mary E. Pearson",
         citation:"The Kiss of Deception",
         year:"2014",
-        tags:"life"
+        tags:""
     },
     {
         quote:"You only live once, but if you do it right, once is enough.",
