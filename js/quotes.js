@@ -28,7 +28,7 @@ var quotes=[
         source:"Socrates",
         citation:"",
         year:"",
-        tags:"knowledge"
+        
         
     },
     {
